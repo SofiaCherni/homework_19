@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework19</title>
+    <style>
+        .wrapper{
+            display: flex;
+        }
+        .color {
+            background-color: aqua;
+        }
+        .matrix {
+            font-size: 20px;
+            width: 200px;
+            height: 300px;
+            pad: 20px;
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+        }
+        .btn,
+        .btn1,
+        .btn2,
+        .btn3,
+        .btn4,
+        .btn5,
+        .btn6,
+        .btn7,
+        .btn8,
+        .btn9,
+        .btn10 {
+            padding: 10px;
+            width: 300px;
+        }
+        .btn {
+            background-color: yellow;
+        }
+        .btn1 {
+            background-color: orange;
+        }
+        .btn2 {
+            background-color: blue;
+        }
+        .btn3 {
+            background-color: green;
+        }
+        .btn4 {
+            background-color: pink;
+        }
+        .btn5 {
+            background-color: purple;
+        }
+        .btn6 {
+            background-color: red;
+        }
+        .btn7 {
+            background-color: salmon;
+        }
+        .btn8 {
+            background-color: orchid;
+        }
+        .btn9 {
+            background-color: lawngreen;
+        }
+        .btn10 {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="table-wrap">
+            <table class="matrix"></table>
+        </div>
+        <div class="box">
+            <div class="col-1">
+                <button class="btn">Сума n-го рядку</button>
+                <div class="sum-row"></div>
+                <button class="btn1">Сума n-го стовпця</button>
+                <div class="sum-col"></div>
+                <button class="btn2">Сума головної діагоналі</button>
+                <div class="main-diagonal"></div>
+                <button class="btn3">Сума побічної діагоналі</button>
+                <div class="side-diagonal"></div>
+                <button class="btn4">Сума половини матриці без головною діагоналлю зверху зправа</button>
+                <div class="sum__half-matrix"></div>
+                <button class="btn5">Сума половини матриці з головною діагоналлю зверху зправа</button>
+                <div class="sum__half-matrix1"></div>
+            </div>
+            <div class="col-2">
+                <button class="btn6">Сума половини матриці без головною діагоналлю знизу зліва</button>
+                <div class="sum__half-matrix2"></div>
+                <button class="btn7">Сума половини матриці з головною діагоналлю знизу зліва</button>
+                <div class="sum__half-matrix3"></div>
+                <button class="btn8">Сума половини матриці без побічної діагоналі зверху зліва:</button>
+                <div class="sum__half-matrix4"></div>
+                <button class="btn9">Сума половини матриці з побочною діагоналлю зверху зліва</button>
+                <div class="sum__half-matrix5"></div>
+                <button class="btn10">Сума половини матриці без побічної діагоналі внизу зправа</button>
+                <div class="sum__half-matrix6"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
